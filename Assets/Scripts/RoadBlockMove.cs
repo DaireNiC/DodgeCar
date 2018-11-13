@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RoadBlockMove : MonoBehaviour {
 
-    public float speed = 7f;
+    public float speed;
 	// Use this for initialization
 	void Start () {
 		

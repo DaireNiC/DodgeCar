@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4321479403940044}
   - component: {fileID: 212151299971678752}
   - component: {fileID: 114843201499751882}
-  - component: {fileID: 61954250374718720}
   - component: {fileID: 50314765780950440}
+  - component: {fileID: 61955003931899064}
   m_Layer: 0
   m_Name: RoadBlock
   m_TagString: RoadBlock
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584660344012982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6578536, y: -3.264658, z: 0}
-  m_LocalScale: {x: 0.52111727, y: 0.28597903, z: 0.5084072}
+  m_LocalPosition: {x: 1.43, y: 2.2, z: 0}
+  m_LocalScale: {x: 0.2751499, y: 0.16300805, z: 0.5084072}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,12 +58,12 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fae0c18c38e3e014daca3153609f6195, type: 2}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 2
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61954250374718720
+--- !u!61 &61955003931899064
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: 0.107498676}
+  m_Offset: {x: 0.04463172, y: -0.18834275}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -86,7 +86,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.524312, y: 1.809061}
+  m_Size: {x: 2.7098727, y: 2.4832044}
   m_EdgeRadius: 0
 --- !u!114 &114843201499751882
 MonoBehaviour:
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ade57f44f23c47489595ad8d866e681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
 --- !u!212 &212151299971678752
 SpriteRenderer:
   m_ObjectHideFlags: 1
